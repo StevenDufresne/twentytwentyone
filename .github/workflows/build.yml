@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@v2
         
       - name: Test My Action
-        uses: StevenDufresne/wp-theme-validation-action-experiment@try/gif
+        uses: StevenDufresne/wp-theme-validation-action-experiment@main
         id: test
         with:
           accessible-ready: false
